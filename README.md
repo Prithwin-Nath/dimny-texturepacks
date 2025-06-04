@@ -1,20 +1,20 @@
 # 🧱 Dimny Texture Packs
 
-Welcome to the official GitHub repository for **Dimny Texture Packs** — custom Minecraft textures designed for both **builders** and **PvP warriors**.
+Welcome to the official GitHub repository for **Dimny Texture Packs** — custom Minecraft textures crafted for both **builders** and **PvP sweats**.
 
 ---
 
 ## 🎨 Texture Packs
 
 ### 🔷 Smooth Wool Pack  
-A clean, soft wool texture perfect for builders seeking neat, smooth visuals.  
+🟦 A clean, soft wool texture with consistent shades — perfect for aesthetic builds.  
 📥 [Download Smooth Wool](http://adfoc.us/872662110603608)
 
 ---
 
-### 🗡️ Switz PvP 1.8 Pack  
-Optimized for PvP with enhanced swords, minimal GUI, and low fire for better visibility.  
-📥 [Download Switz PvP 1.8](https://www.dropbox.com/scl/fi/p6txvrtfm6s50tsfa5nix/Template-Resource-Pack-1.8.zip?rlkey=5iootuytb9td82tpr15v1tc8o&st=yrypzi1s&dl=1)
+### 🔴 Switz PvP 1.8 Pack  
+🟥 Boosted PvP visuals: shorter swords, better GUI, low fire, and FPS-friendly blocks.  
+📥 [Download Switz PvP 1.8](http://adfoc.us/872662110645874)
 
 ---
 
@@ -57,13 +57,13 @@ Visit the project page:
 
 ## 🛠️ Installation Instructions
 
-1. Download a `.zip` file from the links above.  
-2. Move it to your Minecraft resourcepacks folder:
-3. Open Minecraft → Options → Resource Packs → Activate the pack.
+1. 📦 Download a `.zip` file from the links above.  
+2. 🗂 Move it to your Minecraft `resourcepacks` folder:
+3. 🎮 Launch Minecraft → Options → Resource Packs → Enable your pack!
 
 ---
 
 ## 💬 Contact
 
-Questions, feedback, or issues?  
+Got questions or feedback?  
 📬 [Open an issue here on GitHub](https://github.com/Prithwin-Nath/dimny-texturepacks/issues)

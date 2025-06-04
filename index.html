@@ -1,144 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Dimny Texture Packs</title>
-  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
   <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
     body {
-      margin: 0;
-      font-family: 'Poppins', sans-serif;
-      background: #f4f5f7;
-      color: #1a1a1a;
+      font-family: 'Inter', sans-serif;
+      background-color: #0d0d0d;
+      color: #e0e0e0;
       line-height: 1.6;
+      padding-bottom: 100px;
     }
+
     header {
-      background: #111;
-      color: #fff;
-      padding: 1.5rem;
       text-align: center;
+      padding: 2rem 1rem;
+      background: #121212;
+      box-shadow: 0 0 15px #00f0ff44;
     }
+
     header h1 {
-      margin: 0;
       font-family: 'Orbitron', sans-serif;
-      font-weight: 700;
+      font-size: 2.5rem;
+      color: #00f0ff;
+      letter-spacing: 1px;
     }
-    nav {
-      margin-top: 0.5rem;
-    }
-    nav a {
-      margin: 0 1rem;
-      color: #00d4ff;
-      font-weight: bold;
-      text-decoration: none;
-    }
+
     .container {
-      max-width: 960px;
-      margin: 2rem auto;
-      padding: 0 1rem;
+      max-width: 1000px;
+      margin: auto;
+      padding: 2rem;
     }
-    section {
-      background: #fff;
-      border-radius: 8px;
-      margin-bottom: 2rem;
+
+    .section {
+      margin-bottom: 3rem;
+    }
+
+    .section h2 {
+      font-size: 1.8rem;
+      color: #00ffaa;
+      margin-bottom: 1rem;
+      border-bottom: 2px solid #00ffaa44;
+      padding-bottom: 0.5rem;
+    }
+
+    .pack {
+      background: #1a1a1a;
       padding: 1.5rem;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-bottom: 1.5rem;
+      border-left: 5px solid #00f0ff;
+      border-radius: 8px;
     }
-    h2 {
-      font-family: 'Orbitron', sans-serif;
-      color: #003366;
+
+    .pack h3 {
+      font-size: 1.2rem;
+      color: #ffffff;
+      margin-bottom: 0.5rem;
     }
+
+    .pack p {
+      font-size: 0.95rem;
+      color: #c0c0c0;
+    }
+
     .btn {
       display: inline-block;
-      background: #00d4ff;
-      color: #fff;
+      margin-top: 1rem;
       padding: 0.6rem 1.2rem;
+      background: #00f0ff;
+      color: #000;
+      font-weight: bold;
       border-radius: 6px;
-      font-weight: 600;
-      margin-top: 0.5rem;
       text-decoration: none;
     }
+
     .btn:hover {
-      background: #00aac0;
+      background: #00c0cc;
     }
-    .video-grid {
+
+    .grid {
       display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
       gap: 1rem;
-      grid-template-columns: repeat(auto-fit, minmax(280px,1fr));
     }
-    .video-grid img {
+
+    .grid a img {
       width: 100%;
       border-radius: 6px;
-      display: block;
+      transition: transform 0.2s ease;
     }
+
+    .grid a:hover img {
+      transform: scale(1.03);
+    }
+
     footer {
-      text-align: center;
+      background: #121212;
       padding: 1rem;
-      background: #111;
-      color: #ccc;
-      font-size: 0.9rem;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+      color: #888;
     }
-    footer a { color: #00d4ff; text-decoration: none; }
+
+    footer a {
+      color: #00f0ff;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
   </style>
 </head>
 <body>
 
 <header>
   <h1>Dimny Texture Packs</h1>
-  <nav>
-    <a href="#packs">Texture Packs</a>
-    <a href="#videos">YouTube</a>
-    <a href="#install">Install</a>
-  </nav>
 </header>
 
 <div class="container">
-  
-  <section id="packs">
-    <h2>🎨 Texture Packs</h2>
+  <div class="section">
+    <h2>🎮 Featured Packs</h2>
 
-    <h3 style="color:#3399ff;">🔷 Smooth Wool Pack</h3>
-    <p>🟦 A clean, soft wool texture for smooth building aesthetics.</p>
-    <a href="http://adfoc.us/872662110603608" class="btn">📥 Download Smooth Wool</a>
+    <div class="pack">
+      <h3>🔷 Smooth Wool Pack</h3>
+      <p>A clean, soft wool texture perfect for building aesthetic projects.</p>
+      <a href="http://adfoc.us/872662110603608" class="btn">Download</a>
+    </div>
 
-    <h3 style="color:#ff4d4d; margin-top:2rem;">🗡️ Switz PvP 1.8 Pack</h3>
-    <p>🟥 Optimized PvP visuals: short swords, low fire, FPS-friendly blocks.</p>
-    <a href="http://adfoc.us/872662110645874" class="btn">📥 Download Switz PvP 1.8</a>
-  </section>
+    <div class="pack">
+      <h3>🗡️ Switz PvP 1.8 Pack</h3>
+      <p>Enhanced PvP visuals: short swords, low fire, and FPS-optimized blocks.</p>
+      <a href="http://adfoc.us/872662110645874" class="btn">Download</a>
+    </div>
+  </div>
 
-  <section id="videos">
-    <h2>🎬 YouTube Shorts</h2>
-    <div class="video-grid">
-      <a href="https://youtube.com/shorts/0cKUfpeI2bk?si=E5jyjpxrCTHeyOTT" target="_blank">
+  <div class="section">
+    <h2>📺 YouTube Shorts</h2>
+    <div class="grid">
+      <a href="https://youtube.com/shorts/0cKUfpeI2bk" target="_blank">
         <img src="https://img.youtube.com/vi/0cKUfpeI2bk/hqdefault.jpg" alt="Short 1">
       </a>
-      <a href="https://youtube.com/shorts/_7ur-4pmt6M?si=CIL9O7-EbfBwa9mt" target="_blank">
+      <a href="https://youtube.com/shorts/_7ur-4pmt6M" target="_blank">
         <img src="https://img.youtube.com/vi/_7ur-4pmt6M/hqdefault.jpg" alt="Short 2">
       </a>
-      <a href="https://youtube.com/shorts/TCzfYaBry8w?si=dYyu8aE781ZeMRNE" target="_blank">
+      <a href="https://youtube.com/shorts/TCzfYaBry8w" target="_blank">
         <img src="https://img.youtube.com/vi/TCzfYaBry8w/hqdefault.jpg" alt="Short 3">
       </a>
     </div>
-    <p style="text-align:center; margin-top:1rem;">
-      🔔 <a href="https://www.youtube.com/channel/UCI3mXsGMtTZUVK-w0mcPJ6A" target="_blank">Subscribe to Dimny</a>
-    </p>
-  </section>
-
-  <section id="install">
-    <h2>🛠️ How to Install</h2>
-    <ol>
-      <li>📦 Download a pack from above.</li>
-      <li>🗂 Move it into your Minecraft resourcepacks folder:
-        <pre>C:\Users\YourName\AppData\Roaming\.minecraft\resourcepacks</pre>
-      </li>
-      <li>🎮 Launch Minecraft → Options → Resource Packs → Enable it.</li>
-    </ol>
-  </section>
-
+  </div>
 </div>
 
 <footer>
-  © 2025 Dimny Texture Packs • <a href="https://www.youtube.com/channel/UCI3mXsGMtTZUVK-w0mcPJ6A" target="_blank">YouTube Channel</a>
+  © 2025 Dimny | <a href="https://www.youtube.com/channel/UCI3mXsGMtTZUVK-w0mcPJ6A" target="_blank">YouTube</a> • <a href="https://github.com/Prithwin-Nath/dimny-texturepacks" target="_blank">GitHub</a>
 </footer>
 
 </body>

@@ -14,7 +14,7 @@ Welcome to the official GitHub repository for **Dimny Texture Packs** — custom
 
 ### 🔴 Switz PvP 1.8 Pack  
 🟥 Boosted PvP visuals: shorter swords, better GUI, low fire, and FPS-friendly blocks.  
-📥 [Download Switz PvP 1.8](http://adfoc.us/872662110645874)
+📥 [Download Switz PvP 1.8](http://adfoc.us/872662110647549)
 
 ---
 
